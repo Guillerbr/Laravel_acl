@@ -15,6 +15,7 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 * Segundo instale os roles `php artisan db:seed --class=RoleTableSeeder`
 * Terceiro instale os permissions `php artisan db:seed --class=PermissionTableSeeder`
 * Por ultimo instale os Posts `php artisan db:seed --class=PostTableSeeder`
+* Agora descomente o foreach no arquivo `app/Providers/AuthServiceProvider.php` se não não funcionará
 * Após a instalação sistema pronto acesse a tela de login `Usuário: admin@laravel.com` e `Senha: admin1234`.  
 
 ##Imagens do sistema
@@ -39,11 +40,6 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 ## Considerações
 
 Este pequeno sistema foi desenvolvido com intuito de auxiliar desenvolvedores iniciantes no Laravel a ter uma ferramenta de base com acl e que desenvolvedores experientes ajude na melhoria da mesma.
-
-## Considerações Finais
-
-Aparentemente o sistema acl não funciona completamente,o admin não edita nem exclui usuarios ou posts.
-Revisar soucer e fazer algumas alterações para delete e edit e outras funcões.
 
 ## Versões 
 Laravel Framework version 5.3.19
