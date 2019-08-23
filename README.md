@@ -42,7 +42,7 @@ Este pequeno sistema foi desenvolvido com intuito de auxiliar desenvolvedores in
 
 ## Considerações Finais
 
-Aparentemente o sistema acl não funcionacompletamente,o admin não edita nem exclui usuarios ou posts.
+Aparentemente o sistema acl não funciona completamente,o admin não edita nem exclui usuarios ou posts.
 Revisar soucer e fazer algumas alterações para delete e edit e outras funcões.
 
 ## Versões 
