@@ -7,8 +7,8 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 * Download dos arquivos.
 * Alterar a conexão no arquivo `.env`.
 * Comentar o foreach no arquivo `app/Providers/AuthServiceProvider.php`, caso ele não estiver comentado o php artisan não funciona.
-*Execute o comando: composer install
-*Execute o comando: php artisan key:generate
+* Execute o comando: composer install
+* Execute o comando: php artisan key:generate
 * Instalação das tabelas no banco de dados, entre no terminal até a pasta do sistema, em seguida digite a linha de código `php artisan migrate`
 * Após a instalação das migrations instale as seeds
 * Primeiro instale os usuários `php artisan db:seed --class=UserTableSeeder`
@@ -39,6 +39,11 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 ## Considerações
 
 Este pequeno sistema foi desenvolvido com intuito de auxiliar desenvolvedores iniciantes no Laravel a ter uma ferramenta de base com acl e que desenvolvedores experientes ajude na melhoria da mesma.
+
+## Considerações
+
+Aparentemente o sistema acl não funciona,o admin não edita nem exclui usuarios ou posts.
+Revisar soucer e fazer algumas alterações para delete e edit  e outras.
 
 ## Versões 
 Laravel Framework version 5.3.19
