@@ -40,13 +40,14 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 
 Este pequeno sistema foi desenvolvido com intuito de auxiliar desenvolvedores iniciantes no Laravel a ter uma ferramenta de base com acl e que desenvolvedores experientes ajude na melhoria da mesma.
 
-## Considerações
+## Considerações Finais
 
-Aparentemente o sistema acl não funciona,o admin não edita nem exclui usuarios ou posts.
-Revisar soucer e fazer algumas alterações para delete e edit  e outras.
+Aparentemente o sistema acl não funcionacompletamente,o admin não edita nem exclui usuarios ou posts.
+Revisar soucer e fazer algumas alterações para delete e edit e outras funcões.
 
 ## Versões 
 Laravel Framework version 5.3.19
+
 Composer version 1.8.0 2018-12-03 10:31:16
 
 ## Fonte
