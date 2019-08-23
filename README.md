@@ -15,7 +15,7 @@ Sistema em php Laravel de Lista de controle de acesso focado em usuários, roles
 * Segundo instale os roles `php artisan db:seed --class=RoleTableSeeder`
 * Terceiro instale os permissions `php artisan db:seed --class=PermissionTableSeeder`
 * Por ultimo instale os Posts `php artisan db:seed --class=PostTableSeeder`
-* Agora descomente o foreach no arquivo `app/Providers/AuthServiceProvider.php` se não não funcionará
+* Agora descomente o foreach no arquivo `app/Providers/AuthServiceProvider.php` se não não funcionará.
 * Após a instalação sistema pronto acesse a tela de login `Usuário: admin@laravel.com` e `Senha: admin1234`.  
 
 ##Imagens do sistema
